@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+#calculator {
+    width: 600px;
+    height: 900px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#screen{
+    display: flex;
+    height: 60px;
+    width: 560px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+#inputtext, #results{
+    width: 280px;
+    font-size: 30px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+#operators {
+    display: flex;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
