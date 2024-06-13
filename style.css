@@ -19,14 +19,18 @@ body {
 
 }
 #inputtext, #results{
-    width: 280px;
+    width: 400px;
     font-size: 30px;
     border: 0px;
     display: flex;
     align-items: center;
     justify-content: right;
-
 }
+
+#results {
+    width: 160px
+}
+
 #operators {
     display: flex;
 }
