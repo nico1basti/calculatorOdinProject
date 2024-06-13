@@ -24,11 +24,13 @@ body {
     border: 0px;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 #results {
-    width: 160px
+    width: 160px;
+    font-size: 45px;
+    color:gray
 }
 
 #operators {
